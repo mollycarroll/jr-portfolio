@@ -25,7 +25,7 @@ const Home = () => {
             <div className="container-fluid mb-4">
                     <h2 className="text-center">Projects</h2>
 
-            <div className="row justify-content-center row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+            <div className="row justify-content-center row-cols-sm-1 row-cols-md-3 row-cols-lg-4">
 
                 <div className="card m-4 border-0">
                 <img className="card-img-top project-img" src={jeopardy} alt="Jeopardy"/>

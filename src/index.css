@@ -12,10 +12,10 @@ h1, h2, h3 {
   padding-top: 5%;
 }
 
-/* .projects {
+.projects {
   background: rgb(246,38,46);
   background: linear-gradient(90deg, rgba(246,38,46,1) 13%, rgba(251,120,64,1) 90%);
-} */
+}
 
 .project-img {
   box-shadow: 5px 5px 5px #878787;
