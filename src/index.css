@@ -123,3 +123,22 @@ h1, h2, h3 {
     transform: translateY(0px);
   }
 }
+
+.project-button {
+  border: none;
+  padding: 2%;
+  margin: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.project-button:hover {
+  background-color: #878787;
+}
+
+@media screen and (max-width: 600px) {
+  .project-screenshot {
+    display: none;
+  }
+}
