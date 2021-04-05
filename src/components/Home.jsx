@@ -3,6 +3,8 @@ import Header from './Header'
 import { Link } from 'react-router-dom'
 import jeopardy from '../assets/jeopardy.png'
 import travelist from '../assets/travelist.png'
+import gather from '../assets/gather.png'
+import mummy from '../assets/mummyedit.png'
 
 const Home = () => {
 
@@ -22,22 +24,36 @@ const Home = () => {
                 </div>            
             </div>
             <br/>
-            <div className="container-fluid mb-4">
+            <div id="projects" className="container-fluid mb-4">
                     <h2 className="text-center">Projects</h2>
 
-            <div className="row justify-content-center row-cols-sm-1 row-cols-md-3 row-cols-lg-4">
+            <div className="row justify-content-center row-cols-sm-1 row-cols-md-4 row-cols-lg-6">
+
+            <div className="card m-4 border-0">
+                <img className="card-img-top project-img" src={mummy} alt="Serapis"/>
+                <div className="card-body">
+                <Link to="/serapis" className="card-link">Serapis</Link>
+                </div>
+                </div>
+
+                <div className="card m-4 border-0">
+                <img className="card-img-top project-img" src={travelist} alt="Travelist"/>
+                <div className="card-body">
+                <Link to="/travelist" className="card-link">Travelist</Link>
+                </div>
+                </div>
+
+                <div className="card m-4 border-0">
+                <img className="card-img-top project-img" src={gather} alt="Gather"/>
+                <div className="card-body">
+                <Link to="/gather" className="card-link">Gather</Link>
+                </div>
+                </div>
 
                 <div className="card m-4 border-0">
                 <img className="card-img-top project-img" src={jeopardy} alt="Jeopardy"/>
                 <div className="card-body">
-                <Link to="/jeopardy" className="card-link">Jeopardy Browser Game</Link>
-                </div>
-                </div>
-
-                <div className="card m-4 border-0">
-                <img className="card-img-top project-img" src={travelist} alt="Jeopardy"/>
-                <div className="card-body">
-                <Link to="/travelist" className="card-link">Travelist: a travel bucket list app</Link>
+                <Link to="/jeopardy" className="card-link">Jeopardy</Link>
                 </div>
                 </div>
 
