@@ -15,9 +15,9 @@ const Travelist = () => {
                 </div>
 
                 <div className="col">
-                <a href="https://mollycarroll.github.io/Travelist-app/"><button className="project-button">Site Link</button></a>
+                <a href="https://nameless-tor-17266.herokuapp.com/"><button className="project-button">Site Link</button></a>
 
-                <a href="https://github.com/mollycarroll/mollycarroll.github.io/tree/main/Travelist-app"><button className="project-button">GitHub Repository</button></a>
+                <a href="https://github.com/mollycarroll/travel-list"><button className="project-button">GitHub Repository</button></a>
 
                 <p>Travelist is a travel bucket list app where users can view, add and create travel destinations.</p>
                 
@@ -31,14 +31,6 @@ const Travelist = () => {
                     <li>EJS</li>
                     <li>MongoDB + Mongoose</li>
                     <li>JavaScript</li>
-                </ul>
-
-                <p className="font-weight-bold">Features:</p>
-                <ul>
-                    <li>Cloud hosted database via MongoDB Atlas and Heroku</li>
-                    <li>Dynamically populated pages via EJS</li>
-                    <li>User creation, login and authentication</li>
-                    <li>UI enhancements via Bootstrap and jQuery</li>
                 </ul>
 
                 </div>

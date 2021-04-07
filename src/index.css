@@ -29,11 +29,10 @@ h1, h2, h3 {
 }
 
 .header {
-  padding: 80px;
+  padding: 50px;
   text-align: center;
   color: black;
   font-family: 'Roboto Mono', monospace;
-  background-size: cover;
   background: rgb(246,38,46);
   background: linear-gradient(90deg, rgba(246,38,46,1) 13%, rgba(251,120,64,1) 90%);
 }
@@ -77,33 +76,6 @@ h1, h2, h3 {
 .row {
   display: -ms-flexbox;
   display: flex;
-}
-
-.side {
-  -ms-flex: 30%;
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-.main {
-  -ms-flex: 70%;
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-.fakeimg {
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
 }
 
 .sticky {

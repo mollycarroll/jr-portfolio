@@ -16,6 +16,9 @@ const Jeopardy = () => {
 
                 <div className="col">
 
+                <a href="https://mollycarroll.github.io/jeopardy-app/"><button className="project-button">Site Link</button></a>
+
+                <a href="https://github.com/mollycarroll/mollycarroll.github.io/tree/main/jeopardy-app"><button className="project-button">GitHub Repository</button></a>
 
                 <p>This is an interactive browser Jeopardy game with two players.</p>
                 
@@ -29,18 +32,6 @@ const Jeopardy = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
-
-                <p className="font-weight-bold">Features:</p>
-                <ul>
-                    <li>Two players</li>
-                    <li>Score, turn and round display</li>
-                    <li>Mobile-friendly</li>
-                </ul>
-
-
-                <a href="https://mollycarroll.github.io/jeopardy-app/"><button className="project-button">Site Link</button></a>
-
-                <a href="https://github.com/mollycarroll/mollycarroll.github.io/tree/main/jeopardy-app"><button className="project-button">GitHub Repository</button></a>
 
                 </div>
                 </div>
