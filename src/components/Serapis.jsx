@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import serapis from '../assets/gather_full.png'
+import serapis from '../assets/serapis_full.png'
 
 const Serapis = () => {
     return (
@@ -14,7 +14,7 @@ const Serapis = () => {
                 </div>
 
                 <div className="col">
-                <a href="https://mighty-savannah-40031.herokuapp.com/"><button className="project-button">Site Link</button></a>
+                <a href="https://www.serapisstl.com/"><button className="project-button">Site Link</button></a>
 
                 <a href="https://github.com/mollycarroll/serapis-rocks"><button className="project-button">GitHub Repository</button></a>
 
