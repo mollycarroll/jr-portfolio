@@ -38,9 +38,9 @@ const Header = () => {
  
       <div id="sticky-header" className={`navbar${sticky.isSticky ? ' sticky' : ''}`} ref={headerRef}>
         <Link to="/"><button>Home</button></Link>
-        <a href="#"><button>About</button></a>
-        <a href="#projects"><button>Projects</button></a>
-        <a href="#" className="right"><button>Contact</button></a>
+        <a href="#"><button>Resume</button></a>
+        <a href="https://www.github.com/mollycarroll"><button>GitHub</button></a>
+        <a href="mailto:mollyajcarroll@gmail.com" className="right"><button>Contact</button></a>
       </div>
     </div>
   );

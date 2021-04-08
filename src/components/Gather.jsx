@@ -18,17 +18,17 @@ const Gather = () => {
 
                 <a href="https://github.com/mollycarroll/gather-front-end"><button className="project-button">GitHub Repository</button></a>
 
-                <p>Travelist is a travel bucket list app where users can view, add and create travel destinations.</p>
-                
-                <p>When a user enters the destination country, the flag image populates their entry from a country flag API at Flagpedia.net.
-
+                <p>Gather is an event planning app that allows users to create and track different types of events. The home page displays a list of events, and each event has its own page with further details.</p>
+                    
+                <p>Users can create, edit and delete events. On an individual event's page, there is a suggested city and additional activity for further planning inspiration.
                 </p>
 
                 <p className="font-weight-bold">Technologies used:</p>
                 <ul>
+                    <li>React.js</li>
                     <li>Express.js</li>
-                    <li>EJS</li>
                     <li>MongoDB + Mongoose</li>
+                    <li>Node.js</li>
                     <li>JavaScript</li>
                 </ul>
 

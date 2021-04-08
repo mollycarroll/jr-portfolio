@@ -19,15 +19,15 @@ const Travelist = () => {
 
                 <a href="https://github.com/mollycarroll/travel-list"><button className="project-button">GitHub Repository</button></a>
 
-                <p>Travelist is a travel bucket list app where users can view, add and create travel destinations.</p>
+                <p>Travelist is a travel bucket list app where users can view, add and create travel destinations. When a user enters the destination country, the flag image populates their entry from a country flag API at Flagpedia.net.</p>
                 
-                <p>When a user enters the destination country, the flag image populates their entry from a country flag API at Flagpedia.net.
-
+                <p>This app features user account creation, login and logout. When logged in, users can create, edit and delete destinations.
                 </p>
 
                 <p className="font-weight-bold">Technologies used:</p>
                 <ul>
                     <li>Express.js</li>
+                    <li>Node.js</li>
                     <li>EJS</li>
                     <li>MongoDB + Mongoose</li>
                     <li>JavaScript</li>
