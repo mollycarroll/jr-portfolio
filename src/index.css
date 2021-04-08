@@ -8,6 +8,13 @@ h1, h2, h3 {
   font-family: 'Roboto Mono', monospace;
 }
 
+/* icons */
+.devicon-javascript-plain, .devicon-express-original, .devicon-nodejs-plain, .devicon-python-plain, .devicon-django-plain, .devicon-flask-original-wordmark, .devicon-react-original, .devicon-git-plain {
+  font-size: 3em;
+  margin-left: 4%;
+  display: inline-block;
+}
+
 .about {
   padding-top: 5%;
 }

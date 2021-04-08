@@ -20,7 +20,16 @@ const Home = () => {
                 </div>
                 <div className="col">
                     <h2>Skills</h2>
-                    <p>icons</p>
+                    <p>
+                    <i title="Python" class="devicon-python-plain colored"></i>
+                    <i title="Django" class="devicon-django-plain colored"></i>
+                    <i title="Flask" class="devicon-flask-original-wordmark colored"></i>
+                    <i title="JavaScript" class="devicon-javascript-plain colored"></i>
+                    <i title="Express.js" class="devicon-express-original colored"></i>
+                    <i title="Node.js" class="devicon-nodejs-plain colored"></i>
+                    <i title="React.js" class="devicon-react-original colored"></i>
+                    <i title="Git" class="devicon-git-plain colored"></i>
+                    </p>
                 </div>            
             </div>
             <br/>
