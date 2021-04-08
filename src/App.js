@@ -8,8 +8,10 @@ import {
 import Home from './components/Home'
 import Jeopardy from './components/Jeopardy'
 import Travelist from './components/Travelist'
+import Gather from './components/Gather'
+import Serapis from './components/Serapis'
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Switch>
@@ -19,6 +21,9 @@ function App() {
 
         <Route exact path='/travelist' component={Travelist} />
 
+        <Route exact path='/gather' component={Gather} />
+
+        <Route exact path ='/serapis' component={Serapis} />
 
       </Switch>
     </Router>

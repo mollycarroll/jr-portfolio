@@ -45,6 +45,7 @@ h1, h2, h3 {
   overflow: hidden;
   background: rgb(246,38,46);
   background: linear-gradient(90deg, rgba(246,38,46,1) 13%, rgba(251,120,64,1) 90%); 
+  z-index: 1;
 }
 
 .navbar a {
