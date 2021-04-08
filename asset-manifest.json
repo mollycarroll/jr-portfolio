@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.995f0934.chunk.css",
-    "main.js": "/portfolio/static/js/main.38f93510.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.38f93510.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bdb10fb3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bdb10fb3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8714438b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8714438b.js.map",
     "static/js/2.a638a76c.chunk.js": "/portfolio/static/js/2.a638a76c.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/jeopardy.be624a5b.png": "/portfolio/static/media/jeopardy.be624a5b.png",
     "static/media/jeopardy_full.e182ed32.png": "/portfolio/static/media/jeopardy_full.e182ed32.png",
     "static/media/mummyedit.d1861b2b.png": "/portfolio/static/media/mummyedit.d1861b2b.png",
+    "static/media/serapis_full.2e315ea7.png": "/portfolio/static/media/serapis_full.2e315ea7.png",
     "static/media/travelist.643be304.png": "/portfolio/static/media/travelist.643be304.png",
     "static/media/travelist_full.6e8b3bf3.png": "/portfolio/static/media/travelist_full.6e8b3bf3.png"
   },
@@ -24,6 +25,6 @@
     "static/js/runtime-main.8714438b.js",
     "static/js/2.a638a76c.chunk.js",
     "static/css/main.995f0934.chunk.css",
-    "static/js/main.38f93510.chunk.js"
+    "static/js/main.bdb10fb3.chunk.js"
   ]
 }
