@@ -39,28 +39,28 @@ const Home = () => {
             <div className="row justify-content-center row-cols-sm-1 row-cols-md-4 row-cols-lg-6">
 
             <div className="card m-4 border-0">
-                <img className="card-img-top project-img" src={mummy} alt="Serapis"/>
+                <Link to="/serapis"><img className="card-img-top project-img" src={mummy} alt="Serapis"/></Link>
                 <div className="card-body">
                 <Link to="/serapis" className="card-link">Serapis</Link>
                 </div>
                 </div>
 
                 <div className="card m-4 border-0">
-                <img className="card-img-top project-img" src={travelist} alt="Travelist"/>
+                <Link to="/travelist"><img className="card-img-top project-img" src={travelist} alt="Travelist"/></Link>
                 <div className="card-body">
                 <Link to="/travelist" className="card-link">Travelist</Link>
                 </div>
                 </div>
 
                 <div className="card m-4 border-0">
-                <img className="card-img-top project-img" src={gather} alt="Gather"/>
+                <Link to="/gather"><img className="card-img-top project-img" src={gather} alt="Gather"/></Link>
                 <div className="card-body">
                 <Link to="/gather" className="card-link">Gather</Link>
                 </div>
                 </div>
 
                 <div className="card m-4 border-0">
-                <img className="card-img-top project-img" src={jeopardy} alt="Jeopardy"/>
+                <Link to="/jeopardy"><img className="card-img-top project-img" src={jeopardy} alt="Jeopardy"/></Link>
                 <div className="card-body">
                 <Link to="/jeopardy" className="card-link">Jeopardy</Link>
                 </div>
