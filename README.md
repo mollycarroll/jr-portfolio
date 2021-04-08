@@ -1,3 +1,11 @@
+# Portfolio site
+
+This site is a React app deployed on GitHub Pages. It features project component pages routed via React Router. Resources:
+
+[React Router](https://reactrouter.com/)
+[Devicon](https://devicon.dev/)
+[React sticky header](https://www.cluemediator.com/animated-sticky-header-on-scroll-in-react)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
