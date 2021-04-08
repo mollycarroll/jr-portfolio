@@ -35,6 +35,15 @@ h1, h2, h3 {
   color: red;
 }
 
+.home-link {
+  text-decoration: none;
+  color: red;
+}
+
+.card-link:hover, .home-link:hover {
+  color: #000000;
+}
+
 .header {
   padding: 50px;
   text-align: center;

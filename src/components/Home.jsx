@@ -16,7 +16,7 @@ const Home = () => {
             <div className="about row align-items-center">
                 <div className="col">
                     <h2>About Me 👩‍💻</h2>
-                    <p>I'm a full stack software engineer with a focus on solid software craftsmanship and continuous learning. I have a passion for solving problems and tackling challenges like climate change through software engineering.</p>
+                    <p>I'm a full stack software engineer with a focus on solid software craftsmanship and continuous learning. I have a passion for solving problems and tackling challenges like climate change through software engineering. Find me on <a class="home-link" href="https://www.linkedin.com/in/mollyacarroll/">LinkedIn</a>.</p>
                 </div>
                 <div className="col">
                     <h2>Skills</h2>
