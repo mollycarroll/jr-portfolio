@@ -38,7 +38,8 @@ const Header = () => {
  
       <div id="sticky-header" className={`navbar${sticky.isSticky ? ' sticky' : ''}`} ref={headerRef}>
         <Link to="/"><button>Home</button></Link>
-        <a href="https://drive.google.com/file/d/1CnaxaJXIMgTACJ-AXYTz6uw03kj-w61S/view?usp=sharing"><button>Resume</button></a>
+        <a href="https://linktr.ee/mollycarroll"><button>Linktree</button></a>
+        <a href="https://linktr.ee/mollycarroll?lt_utm_source=lt_share_link#269501911"><button>Resume</button></a>
         <a href="https://www.github.com/mollycarroll"><button>GitHub</button></a>
         <a href="mailto:mollyajcarroll@gmail.com" className="right"><button>Contact</button></a>
       </div>
